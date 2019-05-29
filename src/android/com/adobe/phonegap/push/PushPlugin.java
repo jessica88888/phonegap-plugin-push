@@ -509,9 +509,9 @@ public class PushPlugin extends CordovaPlugin implements PushConstants {
 
     SharedPreferences prefs = getApplicationContext().getSharedPreferences(COM_ADOBE_PHONEGAP_PUSH,
         Context.MODE_PRIVATE);
-    /*if (prefs.getBoolean(CLEAR_NOTIFICATIONS, true)) {
+    if (prefs.getBoolean(CLEAR_NOTIFICATIONS, true)) {
       clearAllNotifications();
-    }*/
+    }
   }
 
   @Override
